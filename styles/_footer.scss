@@ -1,0 +1,51 @@
+@import "./variables";
+@import "./responsive";
+
+footer {
+  background-color: $main-color;
+  position: absolute;
+  width: 100%;
+  max-height: 25rem;
+  bottom: 0px;
+  @extend .flex;
+  .marka {
+    @extend .flexDirection;
+    gap: 5px;
+    a {
+      font-size: $text-font-size;
+      &:hover {
+        transform: translateX(5px);
+        cursor: pointer;
+        color: red;
+      }
+    }
+  }
+
+  .creater {
+    text-align: center;
+    a {
+      font-size: $text-font-size;
+      &:hover {
+        font-size: $font-size-ex;
+      }
+    }
+  }
+
+  .iletisim {
+    text-align: center;
+    .adres,
+    .telefon,
+    .mail span {
+      color: $white-color;
+      font-size: $text-font-size;
+      &:hover {
+        transform: translateX(15px);
+        cursor: pointer;
+        color: red;
+      }
+    }
+    .adres {
+      margin: 5px;
+    }
+  }
+}
