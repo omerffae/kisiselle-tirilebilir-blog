@@ -19,4 +19,4 @@
 1. Bu projeyi bilgisayarınıza klonlayın:  
    ```bash
    cd Klasör adı
-   git clone https://github.com/omerffae/kisiselle-tirilebilir-blog.git
+   git clone https://github.com/omerffae/kisisellesirilebilir-blog.git
