@@ -330,6 +330,11 @@ footer .iletisim .adres {
   margin: 5px;
 }
 
+main {
+  background-color: aqua;
+  height: 76vh;
+}
+
 html {
   font-size: 62.5%;
 }
